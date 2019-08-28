@@ -20,9 +20,7 @@ public class Onroll extends Emp {
 	public void display() {
 		super.display();
 		String etype = getClass().getSimpleName();
-		System.out.printf("%10.2f%10.2f%10s%20.2f%10s\n",da,pf,"NA", calcSel(),etype);
+		System.out.printf("%10.2f%10.2f%10s%20.2f%10s\n", da, pf, "NA", calcSel(), etype);
 	}
-	
-	
 
 }

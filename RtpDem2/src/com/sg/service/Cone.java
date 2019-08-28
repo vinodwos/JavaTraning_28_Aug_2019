@@ -6,7 +6,7 @@ public class Cone implements IShape {
 
 	@Override
 	public double calcVolume() {
-		return Math.PI * radius * radius * height/3.0;
+		return Math.PI * radius * radius * height / 3.0;
 	}
 
 	@Override

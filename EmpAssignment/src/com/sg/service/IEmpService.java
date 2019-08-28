@@ -8,7 +8,7 @@ import com.sg.execptions.IDException;
 
 public interface IEmpService {
 	Map<Integer, Emp> map = null;
-	
+
 	int addEmployee(Emp emp) throws IDException;
 
 	int removeEmployee(int eid) throws IDException;

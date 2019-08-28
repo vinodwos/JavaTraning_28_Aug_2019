@@ -12,7 +12,7 @@ public class MtableClient {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 	}
 
 }

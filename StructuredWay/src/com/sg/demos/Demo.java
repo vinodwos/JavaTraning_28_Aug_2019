@@ -9,7 +9,7 @@ public class Demo {
 		Test t2 = Test.getTestInstance();
 		Test t3 = Test.getTestInstance();
 		Test t4 = Test.getTestInstance();
-//		System.out.print(Test.INFO);
+		// System.out.print(Test.INFO);
 	}
 
 }
@@ -22,10 +22,10 @@ class Test {
 	}
 
 	public static Test getTestInstance() {
-//		if (t == null) {
-			t = new Test();
+		// if (t == null) {
+		t = new Test();
 
-//		}
+		// }
 		return t;
 	}
 }

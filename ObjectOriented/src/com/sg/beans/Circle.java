@@ -1,10 +1,10 @@
 package com.sg.beans;
 
 public class Circle {
-	
+
 	private int radius;
 
-	public  double calcAreaOfCircle() {
+	public double calcAreaOfCircle() {
 		return radius * radius * 3.14;
 	}
 
@@ -13,7 +13,7 @@ public class Circle {
 	}
 
 	public void setRadius(int radius) throws Exception {
-		if(radius <0 ){
+		if (radius < 0) {
 			throw new Exception("Radius must be grater then 0!");
 		}
 		this.radius = radius;

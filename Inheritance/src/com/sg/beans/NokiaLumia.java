@@ -6,11 +6,10 @@ public class NokiaLumia extends Nokia1100 {
 	}
 
 	@Override
-	public void doConverse()  {
+	public void doConverse() {
 		// TODO Auto-generated method stub
 		System.out.println("converse - 4g");
 
 	}
 
-	
 }

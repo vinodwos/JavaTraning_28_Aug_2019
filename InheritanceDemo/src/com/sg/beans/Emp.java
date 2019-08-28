@@ -18,7 +18,7 @@ public class Emp {
 	@Override
 	public boolean equals(Object obj) {
 		Emp emp = (Emp) obj;
-		if (this==emp)
+		if (this == emp)
 			return true;
 		if (this.eid == emp.eid)
 			return true;
@@ -30,7 +30,5 @@ public class Emp {
 	protected void finalize() throws Throwable {
 		System.out.println(eid + " instance is GCed");
 	}
-	
-	
 
 }

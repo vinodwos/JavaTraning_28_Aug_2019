@@ -9,7 +9,7 @@ public class NokiaClient {
 		Nokia1100 obj = new NokiaLumia();
 		obj.doConverse();
 		obj.sendSms();
-//		obj.browseNet();
+		// obj.browseNet();
 	}
 
 }

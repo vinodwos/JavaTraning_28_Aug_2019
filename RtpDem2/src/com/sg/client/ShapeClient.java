@@ -1,6 +1,5 @@
 package com.sg.client;
 
-
 import com.sg.service.IShape;
 import com.sg.service.ShapeFactory;
 
